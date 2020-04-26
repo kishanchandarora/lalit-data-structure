@@ -1,0 +1,139 @@
+22:36:23 **** Rebuild of configuration Debug for project linear_search ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\linear_search.o" "..\\src\\linear_search.cpp" 
+g++ -o linear_search.exe "src\\linear_search.o" 
+22:37:18 **** Incremental Build of configuration Debug for project linear_search ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\linear_search.o" "..\\src\\linear_search.cpp" 
+g++ -o linear_search.exe "src\\linear_search.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file linear_search.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+22:38:43 **** Incremental Build of configuration Debug for project linear_search ****
+Info: Internal Builder is used for build
+g++ -o linear_search.exe "src\\linear_search.o" 
+Info: Nothing to build for linear_search
+Info: Nothing to build for linear_search
+22:59:35 **** Rebuild of configuration Debug for project binary_search ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\binary_search.o" "..\\src\\binary_search.cpp" 
+g++ -o binary_search.exe "src\\binary_search.o" 
+22:59:52 **** Incremental Build of configuration Debug for project binary_search ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\binary_search.o" "..\\src\\binary_search.cpp" 
+..\src\binary_search.cpp: In function 'int binary_search(int*, int, int, int)':
+..\src\binary_search.cpp:25:1: warning: control reaches end of non-void function [-Wreturn-type]
+   25 | }
+      | ^
+g++ -o binary_search.exe "src\\binary_search.o" 
+Info: Nothing to build for binary_search
+Info: Nothing to build for binary_search
+Info: Nothing to build for binary_search
+Info: Nothing to build for binary_search
+23:20:16 **** Rebuild of configuration Debug for project insertion_sort ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\insertion_sort.o" "..\\src\\insertion_sort.cpp" 
+g++ -o insertion_sort.exe "src\\insertion_sort.o" 
+Info: Nothing to build for insertion_sort
+23:20:51 **** Incremental Build of configuration Debug for project insertion_sort ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\insertion_sort.o" "..\\src\\insertion_sort.cpp" 
+g++ -o insertion_sort.exe "src\\insertion_sort.o" 
+23:30:47 **** Incremental Build of configuration Debug for project insertion_sort ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\insertion_sort.o" "..\\src\\insertion_sort.cpp" 
+g++ -o insertion_sort.exe "src\\insertion_sort.o" 
+19:15:00 **** Rebuild of configuration Debug for project array ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.cpp" 
+g++ -o array.exe "src\\array.o" 
+19:15:13 **** Incremental Build of configuration Debug for project insertion_sort ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\insertion_sort.o" "..\\src\\insertion_sort.cpp" 
+g++ -o insertion_sort.exe "src\\insertion_sort.o" 
+Info: Nothing to build for array
+19:16:52 **** Incremental Build of configuration Debug for project array ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.cpp" 
+g++ -o array.exe "src\\array.o" 
+19:18:55 **** Incremental Build of configuration Debug for project array ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.cpp" 
+g++ -o array.exe "src\\array.o" 
+19:22:29 **** Incremental Build of configuration Debug for project array ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.cpp" 
+g++ -o array.exe "src\\array.o" 
+19:57:54 **** Incremental Build of configuration Debug for project array ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.cpp" 
+g++ -o array.exe "src\\array.o" 
+20:01:16 **** Incremental Build of configuration Debug for project array ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.cpp" 
+g++ -o array.exe "src\\array.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file array.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+20:01:33 **** Incremental Build of configuration Debug for project array ****
+Info: Internal Builder is used for build
+g++ -o array.exe "src\\array.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/9.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file array.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+20:01:41 **** Incremental Build of configuration Debug for project array ****
+Info: Internal Builder is used for build
+g++ -o array.exe "src\\array.o" 
+20:02:55 **** Incremental Build of configuration Debug for project array ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.cpp" 
+g++ -o array.exe "src\\array.o" 
+20:04:02 **** Incremental Build of configuration Debug for project array ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.cpp" 
+g++ -o array.exe "src\\array.o" 
+20:04:49 **** Incremental Build of configuration Debug for project array ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.cpp" 
+g++ -o array.exe "src\\array.o" 
+Info: Nothing to build for array
+Info: Nothing to build for array
+20:08:33 **** Incremental Build of configuration Debug for project array ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.cpp" 
+g++ -o array.exe "src\\array.o" 
+Info: Nothing to build for array
+Info: Nothing to build for array
+Info: Nothing to build for array
+Info: Nothing to build for insertion_sort
+Info: Nothing to build for array
+20:32:50 **** Incremental Build of configuration Debug for project array ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.cpp" 
+g++ -o array.exe "src\\array.o" 
+20:33:49 **** Incremental Build of configuration Debug for project array ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.cpp" 
+g++ -o array.exe "src\\array.o" 
+20:35:31 **** Incremental Build of configuration Debug for project array ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.cpp" 
+g++ -o array.exe "src\\array.o" 
+20:37:24 **** Incremental Build of configuration Debug for project array ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.cpp" 
+g++ -o array.exe "src\\array.o" 
+20:46:04 **** Incremental Build of configuration Debug for project array ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.cpp" 
+g++ -o array.exe "src\\array.o" 
+20:47:02 **** Incremental Build of configuration Debug for project array ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.cpp" 
+g++ -o array.exe "src\\array.o" 
+20:58:34 **** Incremental Build of configuration Debug for project array ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.cpp" 
+..\src\array.cpp: In function 'int main()':
+..\src\array.cpp:76:15: warning: unused variable 'position' [-Wunused-variable]
+   76 |  int arr[10], position, element;
+      |               ^~~~~~~~
+g++ -o array.exe "src\\array.o" 
+Info: Nothing to build for array
