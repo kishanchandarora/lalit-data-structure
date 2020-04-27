@@ -137,3 +137,61 @@ g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.cpp"
       |               ^~~~~~~~
 g++ -o array.exe "src\\array.o" 
 Info: Nothing to build for array
+23:11:14 **** Incremental Build of configuration Debug for project array ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array.o" "..\\src\\array.cpp" 
+..\src\array.cpp: In function 'int main()':
+..\src\array.cpp:76:15: warning: unused variable 'position' [-Wunused-variable]
+   76 |  int arr[10], position, element;
+      |               ^~~~~~~~
+g++ -o array.exe "src\\array.o" 
+Info: Nothing to build for insertion_sort
+23:11:34 **** Rebuild of configuration Debug for project singly_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_linked_list.o" "..\\src\\singly_linked_list.cpp" 
+g++ -o singly_linked_list.exe "src\\singly_linked_list.o" 
+23:12:02 **** Incremental Build of configuration Debug for project singly_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_linked_list.o" "..\\src\\singly_linked_list.cpp" 
+g++ -o singly_linked_list.exe "src\\singly_linked_list.o" 
+23:12:29 **** Incremental Build of configuration Debug for project singly_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_linked_list.o" "..\\src\\singly_linked_list.cpp" 
+g++ -o singly_linked_list.exe "src\\singly_linked_list.o" 
+23:41:23 **** Incremental Build of configuration Debug for project singly_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_linked_list.o" "..\\src\\singly_linked_list.cpp" 
+g++ -o singly_linked_list.exe "src\\singly_linked_list.o" 
+23:42:13 **** Incremental Build of configuration Debug for project singly_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_linked_list.o" "..\\src\\singly_linked_list.cpp" 
+g++ -o singly_linked_list.exe "src\\singly_linked_list.o" 
+23:55:13 **** Incremental Build of configuration Debug for project singly_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_linked_list.o" "..\\src\\singly_linked_list.cpp" 
+g++ -o singly_linked_list.exe "src\\singly_linked_list.o" 
+00:01:47 **** Incremental Build of configuration Debug for project singly_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_linked_list.o" "..\\src\\singly_linked_list.cpp" 
+g++ -o singly_linked_list.exe "src\\singly_linked_list.o" 
+00:02:19 **** Incremental Build of configuration Debug for project singly_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_linked_list.o" "..\\src\\singly_linked_list.cpp" 
+g++ -o singly_linked_list.exe "src\\singly_linked_list.o" 
+00:12:54 **** Incremental Build of configuration Debug for project singly_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_linked_list.o" "..\\src\\singly_linked_list.cpp" 
+g++ -o singly_linked_list.exe "src\\singly_linked_list.o" 
+00:33:18 **** Incremental Build of configuration Debug for project singly_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_linked_list.o" "..\\src\\singly_linked_list.cpp" 
+g++ -o singly_linked_list.exe "src\\singly_linked_list.o" 
+Info: Nothing to build for singly_linked_list
+00:35:22 **** Incremental Build of configuration Debug for project singly_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_linked_list.o" "..\\src\\singly_linked_list.cpp" 
+g++ -o singly_linked_list.exe "src\\singly_linked_list.o" 
+00:36:19 **** Incremental Build of configuration Debug for project singly_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_linked_list.o" "..\\src\\singly_linked_list.cpp" 
+g++ -o singly_linked_list.exe "src\\singly_linked_list.o" 
