@@ -238,3 +238,49 @@ Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\doubly_linked_list.o" "..\\src\\doubly_linked_list.cpp" 
 g++ -o doubly_linked_list.exe "src\\doubly_linked_list.o" 
 Info: Nothing to build for doubly_linked_list
+Info: Nothing to build for doubly_linked_list
+22:05:29 **** Rebuild of configuration Debug for project singly_circular_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_circular_linked_list.o" "..\\src\\singly_circular_linked_list.cpp" 
+g++ -o singly_circular_linked_list.exe "src\\singly_circular_linked_list.o" 
+22:06:14 **** Incremental Build of configuration Debug for project singly_circular_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_circular_linked_list.o" "..\\src\\singly_circular_linked_list.cpp" 
+g++ -o singly_circular_linked_list.exe "src\\singly_circular_linked_list.o" 
+Info: Nothing to build for doubly_linked_list
+Info: Nothing to build for singly_circular_linked_list
+22:20:01 **** Incremental Build of configuration Debug for project singly_circular_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_circular_linked_list.o" "..\\src\\singly_circular_linked_list.cpp" 
+..\src\singly_circular_linked_list.cpp: In function 'int main()':
+..\src\singly_circular_linked_list.cpp:88:13: error: 'LinkedList::LinkedList()' is private within this context
+   88 |  LinkedList li;
+      |             ^~
+..\src\singly_circular_linked_list.cpp:36:2: note: declared private here
+   36 |  LinkedList() {
+      |  ^~~~~~~~~~
+..\src\singly_circular_linked_list.cpp:96:17: error: 'void LinkedList::printList()' is private within this context
+   96 |    li.printList();
+      |                 ^
+..\src\singly_circular_linked_list.cpp:58:7: note: declared private here
+   58 |  void printList() {
+      |       ^~~~~~~~~
+..\src\singly_circular_linked_list.cpp:101:19: error: 'void LinkedList::addFirst(int)' is private within this context
+  101 |    li.addFirst(ele);
+      |                   ^
+..\src\singly_circular_linked_list.cpp:41:7: note: declared private here
+   41 |  void addFirst(int data) {
+      |       ^~~~~~~~
+22:20:25 **** Incremental Build of configuration Debug for project singly_circular_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_circular_linked_list.o" "..\\src\\singly_circular_linked_list.cpp" 
+g++ -o singly_circular_linked_list.exe "src\\singly_circular_linked_list.o" 
+22:24:18 **** Incremental Build of configuration Debug for project singly_circular_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_circular_linked_list.o" "..\\src\\singly_circular_linked_list.cpp" 
+g++ -o singly_circular_linked_list.exe "src\\singly_circular_linked_list.o" 
+Info: Nothing to build for singly_circular_linked_list
+22:27:07 **** Incremental Build of configuration Debug for project singly_circular_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_circular_linked_list.o" "..\\src\\singly_circular_linked_list.cpp" 
+g++ -o singly_circular_linked_list.exe "src\\singly_circular_linked_list.o" 
