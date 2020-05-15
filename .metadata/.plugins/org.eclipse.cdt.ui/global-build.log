@@ -284,3 +284,7 @@ Info: Nothing to build for singly_circular_linked_list
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_circular_linked_list.o" "..\\src\\singly_circular_linked_list.cpp" 
 g++ -o singly_circular_linked_list.exe "src\\singly_circular_linked_list.o" 
+05:45:48 **** Incremental Build of configuration Debug for project singly_circular_linked_list ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\singly_circular_linked_list.o" "..\\src\\singly_circular_linked_list.cpp" 
+g++ -o singly_circular_linked_list.exe "src\\singly_circular_linked_list.o" 
